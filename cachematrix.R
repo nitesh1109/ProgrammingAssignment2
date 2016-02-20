@@ -3,6 +3,9 @@
 
 ## Write a short comment describing this function
 
+## The Function makeCacheMatrix set and get the value of Matrix. 
+## Moreover, set and get the inverse of square matrix
+
 makeCacheMatrix <- function(x = matrix()) {
     
     inv <- NULL
@@ -21,6 +24,10 @@ makeCacheMatrix <- function(x = matrix()) {
 
 
 ## Write a short comment describing this function
+
+## The Function cacheSolve checks if inverse has already been computed, if so
+## it gets the inverse from Cahce and skip the computational part, otherwise
+## it calculates the inverse of matrix
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
